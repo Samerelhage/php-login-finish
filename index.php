@@ -3,9 +3,7 @@ include_once("show_errors.php");
 include_once("dbcon.php");
 include_once("dbtable.php");
 
-
 $message="";
-
 
 if(empty($_POST)){
     $message="please enter username";
@@ -21,7 +19,6 @@ if(empty($_POST)){
         $message= "wrong password";
     };
 }
-
 
 ?>
 <html>
