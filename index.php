@@ -18,6 +18,7 @@ if(empty($_POST)){
     }else{
         $message= "wrong password";
     };
+    
 }
 
 ?>
