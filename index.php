@@ -19,7 +19,7 @@ if(empty($_POST)){
         $message= "wrong password";
     };
 }
-]
+
 ?>
 <html>
 <head>
